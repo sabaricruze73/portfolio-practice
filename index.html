@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio-practice</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">PORTFOLIO</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link ">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hello,<br>I'm <span class="home__title-color">Sabariraj</span><br> A MERN stack developer</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/sabariraj-s-370a1b283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/sabari._.cruze/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/sabaricruze73" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="Images/image.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Sabariraj</h2>
+                        <p class="about__text">As a passionate and driven Mechanical Engineer, I am eager to bring my skills and knowledge to the industry. My academic journey has provided me with a solid foundation in mechanical engineering principles. In addition to my mechanical engineering expertise, I have developed a strong proficiency in coding and programming. This unique combination allows me to approach engineering problems with a multidisciplinary perspective, leveraging software tools to enhance efficiency and innovation. I am skilled in languages such as Java , SQL , C and Python.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Programming Skills</h2>
+                        <p class="skills__text">I've gained Programming skills through online courses and my proficiency in few programming languages are given below...</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoRJREFUSEvF1lmIzmEUx/HPWCJl38vuQtlK1iKylAslN3JHyq2tFFEiRaJcKMKFC0mhXClFIYm4QITsS9mX7LI/p55XY2Z4l5kxT/2bmv//Pd/n/M55fuep0kSrqom4GgrcA0/KSaKhwAuwF59KhTcUeA124tH/BLfAMUzGz/8FDuhuXMLmUqHxXX2kboVD+I6ZOduI1w1Pi22iUvBAHMRpLEYzzMAznMWPxgCPw1FsSYDVmIIlWIj7xYCF9+VmHN/fxfEEmY85WI9RKfPXpUIrqfFInEOXDLqCPdhYDrQScFu8QJvcVJH9DUxvbHDE35abKpxqA1ZgEbaWAy+3xhG7cIzm4i2u4z2GNzY44nfAbOzCKnRM8GUNDQ5VJiJc6kKS9VUGtEzQr5iWuzyMpLDGYiqap2ddXRsqJnXnbAif0+RZjnt5/IXEXdE9nef2WeZ3uIqL+JJhYShD8LwmvBg4vh+RpR2fsy7EiGzv4BbiWNUciYPS4DiJfqkBY+N/rFLA8YOQdSk21TGBotkieNjkzRw9jt3+7GznK5G68JswjDO5o1vnuRty9kenDAyJwzbj/2NSjU/VlWmllhmZh/RhIHGE4roTz7dyOrpc55qUfHoe9uVuLrCiyfpkaR+WuoFiNY76jcblXOehaYavTTeOCXkUBiduHSdSh29PHXygvuCQMgK1SzVbmabQtVIDVvtuVtr04Rrq/H79t4zjKOzIjvQGtzM8/r6ssYmoe0jdCwPwIQ+OI1mN6PRaF4NiUhcYfdE7X2vCVOKJ7o71EQ/ymQ5j6ZluJ1GSKEFcAsPLa61SwfHdsNRAg7P8kXX1zAtn+XE2kzCWf65SwcXilP2+ycC/AHTAeh8+m2N7AAAAAElFTkSuQmCC"/>
+                                <span class="skills__name1">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+    
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Description" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Sabariraj</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/sabariraj-s-370a1b283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/sabari._.cruze/" target="_blank" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/sabaricruze73" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&#169;sabari-cruze. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="script.js"></script>
+    </body>
+</html>
